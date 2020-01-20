@@ -6,3 +6,4 @@
 - raspberry pi 4 (USB 3.0 better for Intel RealSense)
 - ROS control board
 - Lidar (2D)
+- 2 server motor control the track
