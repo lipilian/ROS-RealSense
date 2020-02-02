@@ -81,3 +81,31 @@ cd launch/
 vi bringup.launch
 ```
 - change the angular velocity scale to 1.014
+
+-calibrate the velocity
+```
+rosrun rikirobot_nav calibrate_linear.py
+```
+- in VMware system
+```
+rosrun rqt_reconfigure rqt_reconfigure
+```
+- change the linear scale in bringup.launch file
+
+# SLAM
+turn on lidar slam
+```
+roslaunch clbrobot lidar_slam.launch
+
+```
+on VMware site
+```
+rosrun rviz rviz
+```
+- save maps
+```
+roscd clbrobot/
+cd maps
+./map.sh
+ls -l
+```
