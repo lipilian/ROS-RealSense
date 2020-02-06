@@ -121,3 +121,42 @@ roslaunch clbrobot navigate.launch
 rosrun rviz rviz
 ```
 - calibrate the initialization position. with 2D pose esitmate on the rviz
+- User defined map
+
+# Hector SLAM
+```
+roslaunch clbrobot hector_slam.launch
+```
+```
+rosrun rviz revitalize
+```
+# multi goal navigation
+```
+roslaunch clbrobot navigate_multi.launch
+```
+
+# PID parameter modify
+```
+rosrun riki_pid pid_configure
+```
+- VMware
+```
+rosrun rqt_reconfigure rqt_reconfigure
+```
+
+# OpenCV line searching
+```
+roslaunch clbrobot camera.launch
+```
+- open line searching opencv script
+```
+roslaunch riki_line_follower riki_line.launch
+```
+
+# RPLidar navigation
+```
+roslaunch clbrobot camera.launch
+```
+```
+roslaunch riki_lidar_follower laser_follower.launch
+```
