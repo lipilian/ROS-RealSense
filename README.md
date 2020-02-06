@@ -126,8 +126,6 @@ rosrun rviz rviz
 # Hector SLAM
 ```
 roslaunch clbrobot hector_slam.launch
-```
-```
 rosrun rviz revitalize
 ```
 # multi goal navigation
