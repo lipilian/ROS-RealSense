@@ -37,7 +37,7 @@ $sudo gedit /etc/hosts
 - connect with ssh
 ```
 ssh robot@192.169.10.21
-
+```
 3. use
 - main node (VMware)
 ```
